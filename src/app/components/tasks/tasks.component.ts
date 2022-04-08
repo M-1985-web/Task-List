@@ -22,9 +22,11 @@ export class TasksComponent implements OnInit {
 
 
   ngOnInit(): void {
-    this.TaskService.getTasks().subscribe((tasks) => {
+    // like promise
+    this.TaskService.getTasks().subscribe((tasks)=>[
       this.tasks = tasks
-    });
+    ]);
+    
   }
 
 }
