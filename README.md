@@ -1,7 +1,5 @@
 # TaskList
 
-# Para ver directo el proyecto  https://m-1985-web.github.io/Task-List/
-
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.3.0.
 
 ## Development server
